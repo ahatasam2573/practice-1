@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+span{
+    color: orange;
+}
+.half-width{
+    width: 100%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 75%;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(93, 97, 97);
+    color: white;
+    border-radius: 10px;
+}
+.top-banner{
+    display: flex;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second-part{
+    display: flex;
+    margin-top: 15%;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box-size{
+    font-size: medium;
+    padding: 10px 20px 20px 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.box-model{
+    display: flex;
+}
+#first-part{
+    border-left: 5px solid;
+    box-shadow: 10px 10px 7px rgb(192, 117, 117);
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#second-part{
+    border-right: 5px solid;
+    box-shadow: 10px 10px 7px rgb(185, 71, 71);
+    border-image: linear-gradient(red, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+footer p{
+    text-align: center;
+}
